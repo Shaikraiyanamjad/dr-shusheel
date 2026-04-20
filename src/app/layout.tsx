@@ -29,7 +29,7 @@ export default function RootLayout({
       lang="en"
       className={`${cormorant.variable} ${dmsans.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-dm">
+      <body className="min-h-full flex flex-col font-dmsans">
         {children}
       </body>
     </html>

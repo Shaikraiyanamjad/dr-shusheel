@@ -15,7 +15,7 @@
 @layer base {
 
   html {
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--font-dmsans), sans-serif;
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -25,12 +25,12 @@
     background: var(--background);
     color: var(--foreground);
     overflow-x: hidden;
-     font-family: 'Cormorant Garamond', serif;
+    font-family: var(--font-dmsans), sans-serif;
   }
 
-  /* ALL HEADINGS USE CORMORANT */
+  /* Headings use Cormorant Garamond for brand expression. */
   h1, h2, h3, h4, h5, h6 {
-   font-family: 'DM Sans', sans-serif;
+    font-family: var(--font-cormorant), serif;
   }
 
 }
@@ -40,7 +40,7 @@
 /* Utilities */
 @layer utilities {
   .eyebrow {
-    font-family: var(--font-dm);
+    font-family: var(--font-dmsans);
     font-size: 11px;
     font-weight: 500;
     letter-spacing: 0.12em;

@@ -9,7 +9,7 @@ const config: Config = {
   extend: {
     fontFamily: {
       cormorant: ["var(--font-cormorant)", "serif"],
-      dmsans: ["var(--font-dm)", "sans-serif"],
+      dmsans: ["var(--font-dmsans)", "sans-serif"],
     },
   },
 },
