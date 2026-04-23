@@ -42,14 +42,14 @@ export default function Hero() {
           className="relative order-1 min-h-[420px] sm:min-h-[560px] lg:order-none lg:min-h-screen"
         >
           <Image
-            src="/images/hero.png"
+            src="/images/hero.webp"
             alt="Invisalign clear aligners held by dentist gloves"
             fill
             priority
             sizes="(max-width: 1024px) 100vw, 58vw"
             className="object-cover"
             placeholder="blur"
-            blurDataURL="/images/hero-blur.jpg"
+            blurDataURL="/images/hero-blur.webp"
           />
           <div className="absolute inset-0 bg-white/10" />
         </motion.div>

@@ -76,7 +76,7 @@ export default function About() {
           <motion.div className="relative" variants={itemRight}>
             <div className="relative overflow-hidden rounded-3xl aspect-[3/4]">
               <Image
-                src="/Images/about-img.jpeg"
+                src="/images/about-img.webp"
                 alt="Dr. Susheel Invisalign Specialist Hyderabad"
                 fill
                 className="object-cover object-top"

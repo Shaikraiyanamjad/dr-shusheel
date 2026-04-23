@@ -11,7 +11,7 @@ export default function Footer() {
         {/* LOGO + ABOUT */}
         <div>
           <Image
-            src="/images/Logo.png" // 👉 make sure this exists in /public
+            src="/images/Logo.webp" // 👉 make sure this exists in /public
             alt="Dr. Susheel Aligners"
             width={150}
             height={45}

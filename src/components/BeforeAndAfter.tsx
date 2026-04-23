@@ -65,7 +65,7 @@ export default function BeforeAfter() {
           >
             {/* AFTER IMAGE (BASE LAYER) */}
             <Image
-              src="/after.png"
+              src="/after.webp"
               alt="After"
               fill
               className="object-cover"
@@ -78,7 +78,7 @@ export default function BeforeAfter() {
               style={{ width: `${percent}%` }}
             >
               <Image
-                src="/before.png"
+                src="/before.webp"
                 alt="Before"
                 fill
                 className="object-cover"

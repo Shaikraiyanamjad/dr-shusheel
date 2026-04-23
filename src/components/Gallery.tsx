@@ -12,12 +12,12 @@ type GalleryItem = {
 };
 
 const galleryItems: GalleryItem[] = [
-  { src: '/g1.jpg', title: 'Invisalign Transformation', sub: '9 Month Treatment', featured: true },
-  { src: '/g2.jpeg', title: 'Modern Clinic Environment', sub: 'State-of-the-art facility' },
-  { src: '/g3.jpeg', title: 'Teeth Whitening', sub: 'Single Session Result' },
-  { src: '/g5.jpeg', title: 'Smile Confidence', sub: 'Complete Smile Makeover' },
-  { src: '/g4.jpeg', title: 'Precision Treatment', sub: 'Invisalign Clear Aligners' },
-  { src: '/g6.jpg', title: 'Clinic Consultation', sub: 'Personalised Care' },
+  { src: '/g1.webp', title: 'Invisalign Transformation', sub: '9 Month Treatment', featured: true },
+  { src: '/g2.webp', title: 'Modern Clinic Environment', sub: 'State-of-the-art facility' },
+  { src: '/g3.webp', title: 'Teeth Whitening', sub: 'Single Session Result' },
+  { src: '/g5.webp', title: 'Smile Confidence', sub: 'Complete Smile Makeover' },
+  { src: '/g4.webp', title: 'Precision Treatment', sub: 'Invisalign Clear Aligners' },
+  { src: '/g6.webp', title: 'Clinic Consultation', sub: 'Personalised Care' },
 ];
 
 export default function Gallery() {

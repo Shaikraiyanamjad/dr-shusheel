@@ -26,7 +26,7 @@ const Header = () => {
 
         {/* Logo */}
         <Image
-          src="/images/logo.png"
+          src="/images/Logo.webp"
           alt="Dr. Susheel Aligners"
           width={180}
           height={40}

@@ -60,7 +60,7 @@ export default function PediatricHero() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <Image
-            src="/g3.jpeg"
+            src="/g3.webp"
             alt="Child-friendly pediatric dental care"
             fill
             className="object-cover"

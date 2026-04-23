@@ -64,7 +64,7 @@ export default function AlignerTherapy() {
         >
           {!imgError ? (
             <Image
-              src="/images/invisalign-page.png"
+              src="/images/invisalign-page.webp"
               alt="Invisalign clear aligners treatment"
               fill
               className="object-cover"
