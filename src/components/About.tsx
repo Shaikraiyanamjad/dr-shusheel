@@ -28,7 +28,7 @@ const itemRight = {
 
 export default function About() {
   return (
-    <section className="pt-28 pb-20 px-6 bg-white">
+    <section className="pt-6 pb-20 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <motion.div
           className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center"
@@ -42,11 +42,11 @@ export default function About() {
             <p className="eyebrow mb-4">Meet Your Doctor</p>
 
             <h2
-              className="font-cormorant font-bold leading-tight mb-5"
-              style={{ fontSize: 'clamp(40px, 5vw, 64px)', color: '#1A2331' }}
+              className="font-cormorant font-bold leading-tight mb-5 text-foreground"
+              style={{ fontSize: 'clamp(40px, 5vw, 64px)' }}
             >
               Dr. Susheel —<br />
-              <span style={{ color: '#6DBFAA' }}>
+              <span className="text-primary">
                 A Dentist Who Listens.
               </span>
             </h2>
@@ -66,7 +66,7 @@ export default function About() {
             </p>
 
             <Link href="/contact">
-              <button className="bg-teal-400 text-white px-5 py-2 rounded-full hover:bg-teal-600 transition">
+              <button className="bg-green-bg text-white px-5 py-2 rounded-full hover:bg-teal-600 transition">
             Book a Consultation
           </button>
             </Link>

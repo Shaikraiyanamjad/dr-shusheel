@@ -25,12 +25,12 @@ const steps = [
 
 export default function TheProcess() {
   return (
-    <section className="py-28 px-6" style={{ backgroundColor: '#EAF7F3' }}>
+    <section className="py-16 px-6 bg-process-bg">
       <div className="max-w-7xl mx-auto">
 
         {/* HEADER (inline replacement for SectionHeader) */}
         <div className="text-center max-w-2xl mx-auto">
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#6DBFAA]">
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] eyebrow">
             The Process
           </p>
 
@@ -57,20 +57,19 @@ export default function TheProcess() {
               >
                 {/* NUMBER */}
                 <div className="relative mb-6 flex items-center justify-center w-[72px] h-[72px]">
-                  <span
-                    className="absolute font-bold select-none"
+                  <h6
+                    className="absolute font-bold select-none text-scroll-thumb"
                     style={{
                       fontSize: '60px',
-                      color: '#C5E8E0',
                       lineHeight: 1,
                     }}
                   >
                     {step.number}
-                  </span>
+                  </h6>
 
                   <span
-                    className="relative z-10 font-medium"
-                    style={{ fontSize: '14px', color: '#6DBFAA' }}
+                    className="relative z-10 font-medium text-primary"
+                    style={{ fontSize: '14px' }}
                   >
                     {step.number}
                   </span>
@@ -78,18 +77,17 @@ export default function TheProcess() {
 
                 {/* TITLE */}
                 <p
-                  className="font-medium mb-3"
-                  style={{ fontSize: '16px', color: '#1A2331' }}
+                  className="font-medium mb-3 text-foreground"
+                  style={{ fontSize: '16px' }}
                 >
                   {step.title}
                 </p>
 
                 {/* DESCRIPTION */}
                 <p
-                  className="font-light leading-relaxed"
+                  className="font-light leading-relaxed text-muted-text"
                   style={{
                     fontSize: '13px',
-                    color: '#6B7B8D',
                     lineHeight: '1.8',
                   }}
                 >

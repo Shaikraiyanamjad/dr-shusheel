@@ -11,12 +11,12 @@ import {
   Zap,
 } from 'lucide-react';
 
-const SERVICES_BG = '#F7F9FC';
-const CARD_BORDER = '#E8EEF4';
-const PRIMARY = '#6DBFAA';
-const ACCENT = '#D4AF6A';
-const TEXT_DARK = '#1A2331';
-const TEXT_MUTED = '#6B7B8D';
+const SERVICES_BG = 'var(--scroll-track)';
+const CARD_BORDER = 'var(--card-border)';
+const PRIMARY = 'var(--primary)';
+const ACCENT = 'var(--accent)';
+const TEXT_DARK = 'var(--foreground)';
+const TEXT_MUTED = 'var(--muted-text)';
 
 const services = [
   {
@@ -97,7 +97,7 @@ function SectionHeader() {
 
 export default function ServicesGrid() {
   return (
-    <section className="py-28 px-6" style={{ background: SERVICES_BG }}>
+    <section className="py-28 px-6 bg-scroll-track">
       <div className="max-w-7xl mx-auto">
         <SectionHeader />
 
@@ -123,10 +123,8 @@ export default function ServicesGrid() {
             >
               {featured && (
                 <div
-                  className="absolute top-4 right-4 text-[10px] uppercase font-medium px-2.5 py-1 rounded-full"
+                  className="absolute top-4 right-4 text-[10px] uppercase font-medium px-2.5 py-1 rounded-full bg-highlight-bg text-accent"
                   style={{
-                    backgroundColor: '#FFF8E7',
-                    color: ACCENT,
                     letterSpacing: '0.06em',
                   }}
                 >
@@ -135,30 +133,28 @@ export default function ServicesGrid() {
               )}
 
               <div
-                className="w-10 h-10 flex items-center justify-center rounded-full mb-5"
-                style={{ backgroundColor: '#EAF7F3' }}
+                className="w-10 h-10 flex items-center justify-center rounded-full mb-5 bg-process-bg"
               >
                 <Icon size={18} color={PRIMARY} strokeWidth={1.5} />
               </div>
 
               <h3
-                className="font-medium mb-2.5"
-                style={{ fontSize: 16, color: TEXT_DARK }}
+                className="font-medium mb-2.5 text-foreground"
+                style={{ fontSize: 16 }}
               >
                 {title}
               </h3>
 
               <p
-                className="leading-relaxed mb-5 line-clamp-3"
-                style={{ fontSize: 14, color: TEXT_MUTED }}
+                className="leading-relaxed mb-5 line-clamp-3 text-muted-text"
+                style={{ fontSize: 14 }}
               >
                 {desc}
               </p>
 
               <Link
                 href={href}
-                className="text-sm font-medium transition-opacity hover:opacity-80"
-                style={{ color: PRIMARY }}
+                className="text-sm font-medium transition-opacity hover:opacity-80 text-primary"
               >
                 Learn more →
               </Link>

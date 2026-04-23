@@ -30,7 +30,7 @@ export default function Gallery() {
 
         {/* HEADER */}
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#6DBFAA]">
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] eyebrow">
             Smile Gallery
           </p>
           <h2 className="mt-3 text-3xl sm:text-4xl font-semibold text-[#101828]">
@@ -60,8 +60,7 @@ export default function Gallery() {
       {/* LIGHTBOX */}
       {activeItem && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4"
-          style={{ backgroundColor: 'rgba(26,35,49,0.92)', backdropFilter: 'blur(12px)' }}
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-overlay-bg backdrop-blur-[12px]"
           onClick={() => setLightbox(null)}
         >
           <button
@@ -102,8 +101,7 @@ function GridItem({ item, onClick, className = '', featured = false }: GridItemP
   return (
     <div
       onClick={onClick}
-      className={`relative cursor-pointer group rounded-[14px] overflow-hidden ${className}`}
-      style={{ border: featured ? '2px solid #6DBFAA' : 'none' }}
+      className={`relative cursor-pointer group rounded-[14px] overflow-hidden ${featured ? 'border-2 border-primary' : ''} ${className}`}
     >
       <div className="relative w-full h-full min-h-[160px]">
         <Image

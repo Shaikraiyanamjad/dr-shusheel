@@ -28,7 +28,7 @@ export default function Hero() {
       initial="hidden"
       animate="show"
       transition={{ duration: 0.4 }}
-      className="bg-[#f7f7f5]"
+      className="bg-background"
     >
       <div className="mx-auto grid min-h-screen max-w-[1920px] grid-cols-1 lg:grid-cols-2">
         
@@ -64,7 +64,7 @@ export default function Hero() {
           className="order-2 flex items-center px-6 py-12 sm:px-10 lg:order-none lg:px-16 xl:px-20"
         >
           <div className="max-w-xl">
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.28em] text-[#78cbbd] sm:text-sm">
+            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.28em] eyebrow sm:text-sm">
               Hyderabad&apos;s Invisalign Specialists
             </p>
 

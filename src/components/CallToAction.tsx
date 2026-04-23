@@ -17,7 +17,7 @@ export default function CallToAction() {
 
         {/* EYEBROW */}
         <motion.p
-          className="text-xs font-semibold uppercase tracking-[0.3em] text-[#6DBFAA] mb-4"
+          className="text-xs font-semibold uppercase tracking-[0.3em] text-[#6DBFAA] mb-4 eyebrow"
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

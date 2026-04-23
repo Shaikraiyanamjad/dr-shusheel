@@ -41,7 +41,7 @@ export default function BeforeAfter() {
 
         {/* HEADER */}
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#6DBFAA]">
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] eyebrow">
             Transformation Results
           </p>
 

@@ -9,6 +9,13 @@
   --primary: #6DBFAA;
   --scroll-track: #F7F9FC;
   --scroll-thumb: #C5E8E0;
+  --process-bg: #EAF7F3;
+  --muted-text: #6B7B8D;
+  --card-border: #E8EEF4;
+  --accent: #D4AF6A;
+  --highlight-bg: #FFF8E7;
+   --soft-bg: #F7F9FC;
+   --green-bg: #78cbbd;
 }
 /* Base styles */
 @layer base {

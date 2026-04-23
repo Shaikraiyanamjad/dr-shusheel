@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { MapPin, Phone, Clock, Globe } from "lucide-react";
+import { MapPin, Phone, Clock, Heart, Mail } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="bg-[#1A2331] text-white">
@@ -30,7 +30,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="w-9 h-9 rounded-full border border-white/20 flex items-center justify-center text-white/60 hover:border-[#6DBFAA] hover:text-[#6DBFAA] transition"
             >
-              <Globe size={15} />
+              <Heart size={15} />
             </a>
 
             <a
@@ -39,7 +39,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="w-9 h-9 rounded-full border border-white/20 flex items-center justify-center text-white/60 hover:border-[#6DBFAA] hover:text-[#6DBFAA] transition"
             >
-              <Globe size={15} />
+              <Mail size={15} />
             </a>
           </div>
         </div>

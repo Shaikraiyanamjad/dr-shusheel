@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import BeforeAndAfter from "@/components/BeforeAndAfter";
 import CallToAction from "@/components/CallToAction";
+import FloatingComponents from "@/components/FloatingComponents";
 import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Header from "@/components/Header";
@@ -23,6 +24,7 @@ export default function Home() {
     <Testimonials />
     <CallToAction />
     <Footer />
+    <FloatingComponents />
     </>
   );
 }
